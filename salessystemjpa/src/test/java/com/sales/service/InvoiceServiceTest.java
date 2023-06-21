@@ -109,7 +109,7 @@ public class InvoiceServiceTest {
 	
 	@Test
     @Transactional
-    public void testUpdateInvoice2() {
+    public void testUpdateInvoice2()  {
         Invoice invoice = new Invoice();
         invoice.setInvoiceNo(001);
         invoice.setAmount(1000.00);
